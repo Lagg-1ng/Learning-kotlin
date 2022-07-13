@@ -8,16 +8,15 @@ import android.widget.TextView
 
 class MainActivity2 : AppCompatActivity() {
     var counter = 0
-
-
+    lateinit var messedj : TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
         counter = 5 + 6
         Log.d("MyLogMact","onCreate1")
         Log.d("MyLogMact","onCreate2")
-        val textureView = findViewById<TextView>(R.id.textView)
-        textureView.text = "privet Lorem Ipsum"
+       // val textureView = findViewById<TextView>(R.id.textView)
+        messedj.text = "privet Lorem Ipsum"
     }
 
     override fun onStart() {

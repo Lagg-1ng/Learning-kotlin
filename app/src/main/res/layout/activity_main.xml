@@ -9,13 +9,13 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/Text"
+        android:id="@+id/Messedj"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rotation="156"
         android:rotationX="-206"
         android:rotationY="198"
-        android:text="А может быть ты Пидр"
+        android:text="Ку"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
